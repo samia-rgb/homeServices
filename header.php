@@ -9,20 +9,20 @@
             </li>
             <li> <a href="javascript:void(0);">Air Conditioners</a>
                 <ul class="drop-down one-column hover-fade">
-                    <li><a href="service-details/ac-wet-servicing.html">Wet Servicing</a></li>
-                    <li><a href="service-details/ac-dry-servicing.html">Dry Servicing</a></li>
-                    <li><a href="service-details/ac-gas-refill.html">Gas Refill</a></li>
-                    <li><a href="service-details/ac-repair.html">Repair</a></li>
+                    <li><a href="service-details/ac-wet-servicing.php">Wet Servicing</a></li>
+                    <li><a href="service-details/ac-dry-servicing.php">Dry Servicing</a></li>
+                    <li><a href="service-details/ac-gas-refill.php">Gas Refill</a></li>
+                    <li><a href="service-details/ac-repair.php">Repair</a></li>
                 </ul>
             </li>
 
             <li> <a href="#">Home Cleaning</a>
                 <ul class="drop-down one-column hover-fade">
-                    <li><a href="service-details/bedroom-deep-cleaning.html">Bedroom Deep Cleaning</a></li>
-                    <li><a href="service-details/dining-chair-shampooing.html">Dining Chair Shampooing </a></li>
-                    <li><a href="service-details/home-deep-cleaning.html">Home Deep Cleaning </a></li>
-                    <li><a href="service-details/bathroom-deep-cleaning.html">Bathroom Deep Cleaning</a></li>
-                    <li><a href="service-details/kitchen-deep-cleaning.html">Kitchen Deep Cleaning </a></li>
+                    <li><a href="service-details/bedroom-deep-cleaning.php">Bedroom Deep Cleaning</a></li>
+                    <li><a href="service-details/dining-chair-shampooing.php">Dining Chair Shampooing </a></li>
+                    <li><a href="service-details/home-deep-cleaning.php">Home Deep Cleaning </a></li>
+                    <li><a href="service-details/bathroom-deep-cleaning.php">Bathroom Deep Cleaning</a></li>
+                    <li><a href="service-details/kitchen-deep-cleaning.php">Kitchen Deep Cleaning </a></li>
 
                 </ul>
             </li>

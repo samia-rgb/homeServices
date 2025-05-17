@@ -167,7 +167,7 @@
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i> <a
-                                        href="">Samia207@gmail.com</a>
+                                        href="">cleantodaybd@gmail.com</a>
                             </li>
                             <li>
                                 <i class="fa fa-headphones"></i> <a href="">01403692054</a>
@@ -197,7 +197,7 @@
                             </li>
                             <li>
                                 <i class="fa fa-envelope"></i> <a
-                                    href="mailto:nuzhatt907@gmail.com">nuzhatt907@gmail.com</a>
+                                    href="mailto:cleantodaybd@gmail.com">cleantodaybd.com</a>
                             </li>
                             <li>
                                 <i class="fa fa-phone"></i> <a href="tel:+911234567890">+91-1234567890</a>
