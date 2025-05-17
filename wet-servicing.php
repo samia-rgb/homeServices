@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home Deep Cleaning</title>
+  <title>Wet Servicing</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/chblue.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href="assets/css/dtb/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/select2.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/toastr.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     :root {
@@ -371,39 +379,42 @@
       box-shadow: 0 6px 8px rgba(78, 115, 223, 0.4);
       background: linear-gradient(135deg, #3a57c9, var(--primary-color));
     }
-</style>
+  </style>
 </head>
 <body>
-<div class="header">
-  <h1>Home Deep Cleaning Service</h1>
-</div>
+<?php
+include "header.php";
+?>
+<!--<div class="header">-->
+<!--  <h1>Wet Servicing</h1>-->
+<!--</div>-->
 
 <div class="container">
   <div class="main-content">
-    <h2 class="service-title">HOME CLEANING: Home Deep Cleaning</h2>
+    <h2 class="service-title">Wet Servicing</h2>
     <div class="service-image">
-      <img src="https://prolinerangehoods.com/cdn/shop/articles/whats-included-in-a-professional-house-cleaning-checklist-included-343704.jpg?v=1719132299" alt="Home Deep Cleaning">
+      <img src="https://www.shutterstock.com/image-photo/worker-cleaning-coil-cooler-air-260nw-746063977.jpg" alt="Wet Servicing">
     </div>
     <div class="content-padding">
       <div class="description">
-        <h3>Complete Home Cleaning Solution</h3>
-        <p>Our comprehensive deep cleaning service for your entire home includes thorough cleaning of all rooms, including hard-to-reach areas. Our professional team removes dust, dirt, and allergens from floors, walls, windows, furniture, and fixtures, leaving your entire living space refreshed and revitalized.</p>
+        <h3>Professional Wet Servicing</h3>
+        <p>Our wet servicing solution provides thorough cleaning and maintenance using specialized wet cleaning techniques. Our expert technicians ensure all components are properly cleaned, lubricated, and restored to optimal working condition.</p>
 
         <div class="features">
           <div class="feature">
-            <i class="fas fa-home"></i>
-            <h4>All Rooms</h4>
-            <p>Complete cleaning of every space</p>
+            <i class="fas fa-tint"></i>
+            <h4>Deep Cleaning</h4>
+            <p>Thorough wet cleaning process</p>
           </div>
           <div class="feature">
-            <i class="fas fa-allergies"></i>
-            <h4>Allergen Removal</h4>
-            <p>Healthier indoor environment</p>
+            <i class="fas fa-tools"></i>
+            <h4>Expert Maintenance</h4>
+            <p>Professional servicing by specialists</p>
           </div>
           <div class="feature">
-            <i class="fas fa-sparkles"></i>
-            <h4>Deep Sanitization</h4>
-            <p>Thorough disinfection of surfaces</p>
+            <i class="fas fa-check-circle"></i>
+            <h4>Quality Assurance</h4>
+            <p>Guaranteed satisfaction</p>
           </div>
         </div>
       </div>
@@ -414,10 +425,10 @@
     <div class="booking-details">
       <h3>Booking Details</h3>
       <table>
-        <tr><td>Price</td><td>1000</td></tr>
+        <tr><td>Price</td><td>800</td></tr>
         <tr><td>Quantity</td><td>1</td></tr>
-        <tr><td>Discount</td><td> 0</td></tr>
-        <tr><td><strong>Total</strong></td><td><strong>1000</strong></td></tr>
+        <tr><td>Discount</td><td>0</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>800</strong></td></tr>
       </table>
       <button class="book-now"><i class="fas fa-calendar-check"></i> Book Now</button>
     </div>

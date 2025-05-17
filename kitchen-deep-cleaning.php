@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Repair</title>
+  <title>Kitchen Deep Cleaning</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/chblue.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href="assets/css/dtb/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/select2.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/toastr.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     :root {
@@ -371,39 +379,42 @@
       box-shadow: 0 6px 8px rgba(78, 115, 223, 0.4);
       background: linear-gradient(135deg, #3a57c9, var(--primary-color));
     }
-  </style>
+</style>
 </head>
 <body>
-<div class="header">
-  <h1>Repair</h1>
-</div>
+<?php
+include "header.php";
+?>
+<!--<div class="">-->
+<!--  <h1>Kitchen Deep Cleaning Service</h1>-->
+<!--</div>-->
 
 <div class="container">
   <div class="main-content">
-    <h2 class="service-title">Repair</h2>
+    <h2 class="service-title">HOME CLEANING: Kitchen Deep Cleaning</h2>
     <div class="service-image">
-      <img src="https://t4.ftcdn.net/jpg/03/30/61/59/360_F_330615955_AdnnZtL9HBXhIFrbQexD4z2961diIORI.jpg" alt="Repair">
+      <img src="https://www.shutterstock.com/image-photo/asian-beautiful-cleaning-service-woman-600nw-2505389209.jpg" alt="Kitchen Deep Cleaning">
     </div>
     <div class="content-padding">
       <div class="description">
-        <h3>Professional Repair Service</h3>
-        <p>Our comprehensive repair service addresses all types of malfunctions and damages. Our skilled technicians diagnose issues accurately and implement effective solutions to restore your equipment to optimal working condition, extending its lifespan and ensuring reliable performance.</p>
+        <h3>Professional Kitchen Cleaning</h3>
+        <p>Our intensive cleaning service for your kitchen includes thorough cleaning of all surfaces including countertops, cabinets, appliances, sink, and floors. We degrease and sanitize all areas, clean inside appliances, and remove built-up grime to leave your kitchen spotless, hygienic, and ready for cooking.</p>
 
         <div class="features">
           <div class="feature">
-            <i class="fas fa-wrench"></i>
-            <h4>Expert Repairs</h4>
-            <p>Skilled technicians for all repairs</p>
+            <i class="fas fa-utensils"></i>
+            <h4>Appliance Cleaning</h4>
+            <p>Inside and outside of all appliances</p>
           </div>
           <div class="feature">
-            <i class="fas fa-diagnoses"></i>
-            <h4>Accurate Diagnosis</h4>
-            <p>Precise problem identification</p>
+            <i class="fas fa-soap"></i>
+            <h4>Degreasing</h4>
+            <p>Removal of grease and oil buildup</p>
           </div>
           <div class="feature">
-            <i class="fas fa-check-circle"></i>
-            <h4>Quality Assurance</h4>
-            <p>Guaranteed satisfaction</p>
+            <i class="fas fa-sink"></i>
+            <h4>Surface Sanitization</h4>
+            <p>Food-safe disinfection of all areas</p>
           </div>
         </div>
       </div>
@@ -414,10 +425,10 @@
     <div class="booking-details">
       <h3>Booking Details</h3>
       <table>
-        <tr><td>Price</td><td>900</td></tr>
+        <tr><td>Price</td><td>200</td></tr>
         <tr><td>Quantity</td><td>1</td></tr>
-        <tr><td>Discount</td><td>0</td></tr>
-        <tr><td><strong>Total</strong></td><td><strong>900</strong></td></tr>
+        <tr><td>Discount</td><td> 0</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>200</strong></td></tr>
       </table>
       <button class="book-now"><i class="fas fa-calendar-check"></i> Book Now</button>
     </div>

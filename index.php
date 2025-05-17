@@ -83,6 +83,7 @@
                 </div>
             </div>
         </section>
+
         <section class="content-central">
             <div class="content_info content_resalt">
                 <div class="container" style="margin-top: 40px;">

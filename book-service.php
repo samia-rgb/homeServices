@@ -221,8 +221,6 @@ $connection->close();
                                                 <select class="form-control" id="service_type" name="service_type" required>
                                                     <option value="">Select Service Type</option>
                                                     <option value="Air Conditioners">Air Conditioners</option>
-                                                    <option value="Appliances">Appliances</option>
-                                                    <option value="Home Needs">Home Needs</option>
                                                     <option value="Home Cleaning">Home Cleaning</option>
                                                 </select>
                                             </div>
@@ -271,7 +269,7 @@ $connection->close();
                                             </div>
 
                                             <div class="form-group">
-                                                <label>Price: $<?php echo $service_price; ?></label>
+                                                <label>Price: <?php echo $service_price; ?></label>
                                             </div>
 
                                             <button type="submit" name="submit" class="btn btn-primary">Book Now</button>

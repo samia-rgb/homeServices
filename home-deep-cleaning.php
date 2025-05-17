@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bathroom Deep Cleaning</title>
+  <title>Home Deep Cleaning</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/chblue.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href="assets/css/dtb/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/select2.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/toastr.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     :root {
@@ -374,36 +382,39 @@
 </style>
 </head>
 <body>
-<div class="header">
-  <h1>Bathroom Deep Cleaning Service</h1>
-</div>
+<?php
+include "header.php";
+?>
+<!--<div class="header">-->
+<!--  <h1>Home Deep Cleaning Service</h1>-->
+<!--</div>-->
 
 <div class="container">
   <div class="main-content">
-    <h2 class="service-title">HOME CLEANING: Bathroom Deep Cleaning</h2>
+    <h2 class="service-title">HOME CLEANING: Home Deep Cleaning</h2>
     <div class="service-image">
-      <img src="https://images.squarespace-cdn.com/content/v1/611b3a86fb6a226aadffcf79/8717ef64-bce8-4181-a888-d1e05dd054b3/how+to+clean+bathroom.png?format=1000w" alt="Bathroom Deep Cleaning">
+      <img src="https://prolinerangehoods.com/cdn/shop/articles/whats-included-in-a-professional-house-cleaning-checklist-included-343704.jpg?v=1719132299" alt="Home Deep Cleaning">
     </div>
     <div class="content-padding">
       <div class="description">
-        <h3>Professional Bathroom Deep Cleaning</h3>
-        <p>Our thorough cleaning and sanitization service for your bathroom includes cleaning of tiles, grout, shower, bathtub, toilet, sink, mirrors, and fixtures. We remove soap scum, mildew, and hard water stains to leave your bathroom sparkling clean and hygienic.</p>
+        <h3>Complete Home Cleaning Solution</h3>
+        <p>Our comprehensive deep cleaning service for your entire home includes thorough cleaning of all rooms, including hard-to-reach areas. Our professional team removes dust, dirt, and allergens from floors, walls, windows, furniture, and fixtures, leaving your entire living space refreshed and revitalized.</p>
 
         <div class="features">
           <div class="feature">
-            <i class="fas fa-shower"></i>
-            <h4>Shower & Tub</h4>
-            <p>Deep cleaning of all surfaces</p>
+            <i class="fas fa-home"></i>
+            <h4>All Rooms</h4>
+            <p>Complete cleaning of every space</p>
           </div>
           <div class="feature">
-            <i class="fas fa-toilet"></i>
-            <h4>Toilet & Sink</h4>
-            <p>Sanitization and disinfection</p>
+            <i class="fas fa-allergies"></i>
+            <h4>Allergen Removal</h4>
+            <p>Healthier indoor environment</p>
           </div>
           <div class="feature">
-            <i class="fas fa-brush"></i>
-            <h4>Tile & Grout</h4>
-            <p>Stain removal and restoration</p>
+            <i class="fas fa-sparkles"></i>
+            <h4>Deep Sanitization</h4>
+            <p>Thorough disinfection of surfaces</p>
           </div>
         </div>
       </div>
@@ -414,10 +425,10 @@
     <div class="booking-details">
       <h3>Booking Details</h3>
       <table>
-        <tr><td>Price</td><td>300</td></tr>
+        <tr><td>Price</td><td>1000</td></tr>
         <tr><td>Quantity</td><td>1</td></tr>
-        <tr><td>Discount</td><td>0</td></tr>
-        <tr><td><strong>Total</strong></td><td><strong>300</strong></td></tr>
+        <tr><td>Discount</td><td> 0</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>1000</strong></td></tr>
       </table>
       <button class="book-now"><i class="fas fa-calendar-check"></i> Book Now</button>
     </div>

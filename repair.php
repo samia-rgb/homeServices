@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bedroom Deep Cleaning</title>
+  <title>Repair</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/chblue.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href="assets/css/dtb/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/select2.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/toastr.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     :root {
@@ -371,39 +379,42 @@
       box-shadow: 0 6px 8px rgba(78, 115, 223, 0.4);
       background: linear-gradient(135deg, #3a57c9, var(--primary-color));
     }
-</style>
+  </style>
 </head>
 <body>
-<div class="header">
-  <h1>Bedroom Deep Cleaning Service</h1>
-</div>
+<?php
+include "header.php";
+?>
+<!--<div class="header">-->
+<!--  <h1>Repair</h1>-->
+<!--</div>-->
 
 <div class="container">
   <div class="main-content">
-    <h2 class="service-title">HOME CLEANING: Bedroom Deep Cleaning</h2>
+    <h2 class="service-title">Repair</h2>
     <div class="service-image">
-      <img src="https://www.shutterstock.com/image-photo/man-homewear-deepcleaning-floor-mop-600nw-2465584683.jpg" alt="Bedroom Deep Cleaning">
+      <img src="https://t4.ftcdn.net/jpg/03/30/61/59/360_F_330615955_AdnnZtL9HBXhIFrbQexD4z2961diIORI.jpg" alt="Repair">
     </div>
     <div class="content-padding">
       <div class="description">
-        <h3>Professional Bedroom Deep Cleaning</h3>
-        <p>Our comprehensive bedroom cleaning service includes dusting, vacuuming, furniture cleaning, and sanitization. Our professional cleaners ensure your bedroom is spotless and fresh, creating a healthy and comfortable environment for rest and relaxation.</p>
+        <h3>Professional Repair Service</h3>
+        <p>Our comprehensive repair service addresses all types of malfunctions and damages. Our skilled technicians diagnose issues accurately and implement effective solutions to restore your equipment to optimal working condition, extending its lifespan and ensuring reliable performance.</p>
 
         <div class="features">
           <div class="feature">
-            <i class="fas fa-broom"></i>
-            <h4>Deep Dusting</h4>
-            <p>All surfaces and hard-to-reach areas</p>
+            <i class="fas fa-wrench"></i>
+            <h4>Expert Repairs</h4>
+            <p>Skilled technicians for all repairs</p>
           </div>
           <div class="feature">
-            <i class="fas fa-couch"></i>
-            <h4>Furniture Care</h4>
-            <p>Cleaning and polishing of all furniture</p>
+            <i class="fas fa-diagnoses"></i>
+            <h4>Accurate Diagnosis</h4>
+            <p>Precise problem identification</p>
           </div>
           <div class="feature">
-            <i class="fas fa-wind"></i>
-            <h4>Air Freshening</h4>
-            <p>Deodorizing and air purification</p>
+            <i class="fas fa-check-circle"></i>
+            <h4>Quality Assurance</h4>
+            <p>Guaranteed satisfaction</p>
           </div>
         </div>
       </div>
@@ -414,10 +425,10 @@
     <div class="booking-details">
       <h3>Booking Details</h3>
       <table>
-        <tr><td>Price</td><td> 150</td></tr>
+        <tr><td>Price</td><td>900</td></tr>
         <tr><td>Quantity</td><td>1</td></tr>
         <tr><td>Discount</td><td>0</td></tr>
-        <tr><td><strong>Total</strong></td><td><strong> 150</strong></td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>900</strong></td></tr>
       </table>
       <button class="book-now"><i class="fas fa-calendar-check"></i> Book Now</button>
     </div>

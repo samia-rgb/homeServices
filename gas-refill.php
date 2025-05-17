@@ -3,11 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wet Servicing</title>
+  <title>Gas Refill</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
-  <style>
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/chblue.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href="assets/css/dtb/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/select2.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/toastr.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <style>
     :root {
       --primary-color: #4e73df;
       --secondary-color: #1cc88a;
@@ -374,31 +383,34 @@
   </style>
 </head>
 <body>
-<div class="header">
-  <h1>Wet Servicing</h1>
-</div>
+<?php
+include "header.php";
+?>
+<!--<div class="header">-->
+<!--  <h1>Gas Refill</h1>-->
+<!--</div>-->
 
 <div class="container">
   <div class="main-content">
-    <h2 class="service-title">Wet Servicing</h2>
+    <h2 class="service-title">Gas Refill</h2>
     <div class="service-image">
-      <img src="https://www.shutterstock.com/image-photo/worker-cleaning-coil-cooler-air-260nw-746063977.jpg" alt="Wet Servicing">
+      <img src="https://media.istockphoto.com/id/1370810441/photo/preparing-welding-gas-cylinder-on-the-oxygen-tank.jpg?s=612x612&w=0&k=20&c=e7ofd27hA-5zooO2hmisrYELU33Sv67qltw-eMpImTw=" alt="Gas Refill">
     </div>
     <div class="content-padding">
       <div class="description">
-        <h3>Professional Wet Servicing</h3>
-        <p>Our wet servicing solution provides thorough cleaning and maintenance using specialized wet cleaning techniques. Our expert technicians ensure all components are properly cleaned, lubricated, and restored to optimal working condition.</p>
+        <h3>Professional Gas Refill Service</h3>
+        <p>Our gas refill service provides safe and efficient refilling of your gas systems. Our certified technicians ensure proper handling and filling of gas containers, following all safety protocols and industry standards to deliver a reliable and secure service.</p>
 
         <div class="features">
           <div class="feature">
-            <i class="fas fa-tint"></i>
-            <h4>Deep Cleaning</h4>
-            <p>Thorough wet cleaning process</p>
+            <i class="fas fa-fire"></i>
+            <h4>Safe Refilling</h4>
+            <p>Secure gas handling procedures</p>
           </div>
           <div class="feature">
-            <i class="fas fa-tools"></i>
-            <h4>Expert Maintenance</h4>
-            <p>Professional servicing by specialists</p>
+            <i class="fas fa-shield-alt"></i>
+            <h4>Certified Technicians</h4>
+            <p>Experienced professionals</p>
           </div>
           <div class="feature">
             <i class="fas fa-check-circle"></i>
@@ -414,10 +426,10 @@
     <div class="booking-details">
       <h3>Booking Details</h3>
       <table>
-        <tr><td>Price</td><td>800</td></tr>
+        <tr><td>Price</td><td>500</td></tr>
         <tr><td>Quantity</td><td>1</td></tr>
         <tr><td>Discount</td><td>0</td></tr>
-        <tr><td><strong>Total</strong></td><td><strong>800</strong></td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>500</strong></td></tr>
       </table>
       <button class="book-now"><i class="fas fa-calendar-check"></i> Book Now</button>
     </div>

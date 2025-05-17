@@ -3,9 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gas Refill</title>
+  <title>Bathroom Deep Cleaning</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">
+    <link href="assets/css/chblue.css" rel="stylesheet" media="screen">
+    <link href="assets/css/theme-responsive.css" rel="stylesheet" media="screen">
+    <link href="assets/css/dtb/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/select2.min.css" rel="stylesheet" media="screen">
+    <link href="assets/css/toastr.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
     :root {
@@ -371,53 +379,56 @@
       box-shadow: 0 6px 8px rgba(78, 115, 223, 0.4);
       background: linear-gradient(135deg, #3a57c9, var(--primary-color));
     }
-  </style>
+</style>
 </head>
 <body>
-<div class="header">
-  <h1>Gas Refill</h1>
-</div>
 
+<?php
+include "header.php";
+?>
+<!--<div class="page-title">-->
+<!--    <h1>Bathroom Deep Cleaning Service</h1>-->
+<!--</div>-->
 <div class="container">
   <div class="main-content">
-    <h2 class="service-title">Gas Refill</h2>
+    <h2 class="service-title">HOME CLEANING: Bathroom Deep Cleaning</h2>
     <div class="service-image">
-      <img src="https://media.istockphoto.com/id/1370810441/photo/preparing-welding-gas-cylinder-on-the-oxygen-tank.jpg?s=612x612&w=0&k=20&c=e7ofd27hA-5zooO2hmisrYELU33Sv67qltw-eMpImTw=" alt="Gas Refill">
+      <img src="https://images.squarespace-cdn.com/content/v1/611b3a86fb6a226aadffcf79/8717ef64-bce8-4181-a888-d1e05dd054b3/how+to+clean+bathroom.png?format=1000w" alt="Bathroom Deep Cleaning">
     </div>
     <div class="content-padding">
       <div class="description">
-        <h3>Professional Gas Refill Service</h3>
-        <p>Our gas refill service provides safe and efficient refilling of your gas systems. Our certified technicians ensure proper handling and filling of gas containers, following all safety protocols and industry standards to deliver a reliable and secure service.</p>
+        <h3>Professional Bathroom Deep Cleaning</h3>
+        <p>Our thorough cleaning and sanitization service for your bathroom includes cleaning of tiles, grout, shower, bathtub, toilet, sink, mirrors, and fixtures. We remove soap scum, mildew, and hard water stains to leave your bathroom sparkling clean and hygienic.</p>
 
         <div class="features">
           <div class="feature">
-            <i class="fas fa-fire"></i>
-            <h4>Safe Refilling</h4>
-            <p>Secure gas handling procedures</p>
+            <i class="fas fa-shower"></i>
+            <h4>Shower & Tub</h4>
+            <p>Deep cleaning of all surfaces</p>
           </div>
           <div class="feature">
-            <i class="fas fa-shield-alt"></i>
-            <h4>Certified Technicians</h4>
-            <p>Experienced professionals</p>
+            <i class="fas fa-toilet"></i>
+            <h4>Toilet & Sink</h4>
+            <p>Sanitization and disinfection</p>
           </div>
           <div class="feature">
-            <i class="fas fa-check-circle"></i>
-            <h4>Quality Assurance</h4>
-            <p>Guaranteed satisfaction</p>
+            <i class="fas fa-brush"></i>
+            <h4>Tile & Grout</h4>
+            <p>Stain removal and restoration</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="sidebar">
+    <div class="sidebar">
     <div class="booking-details">
       <h3>Booking Details</h3>
       <table>
-        <tr><td>Price</td><td>500</td></tr>
+        <tr><td>Price</td><td>300</td></tr>
         <tr><td>Quantity</td><td>1</td></tr>
         <tr><td>Discount</td><td>0</td></tr>
-        <tr><td><strong>Total</strong></td><td><strong>500</strong></td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>300</strong></td></tr>
       </table>
       <button class="book-now"><i class="fas fa-calendar-check"></i> Book Now</button>
     </div>
@@ -462,6 +473,7 @@
 </div>
 
 <script>
+
   // Get the modal
   const modal = document.getElementById('loginModal');
 
